@@ -1,0 +1,9 @@
+r.__Int__.integrate(r.__KK_integrand__, 0.0, 10.0)
+r.__bias__ = 1.0
+
+
+from frequency import *
+from responseFn import *
+f = frequency()
+r = responseFn()
+r.ReadData("idc.dat", "ikk.dat")
